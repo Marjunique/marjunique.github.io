@@ -8,16 +8,15 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600&display=swap');
         body { 
-            font-family: 'Public Sans', sans-serif; 
-            background-color: #fffbeb;
+            font-family: 'Inter', sans-serif; 
+            background-color: #ffffff;
         }
         a { transition: opacity 0.2s; }
         a:hover { opacity: 0.6; }
     </style>
 </head>
-<body class="text-stone-900">
+<body class="color: #000000">
     
-    <!-- Simple Header -->
     <header class="px-8 py-8 max-w-4xl mx-auto">
         <div class="flex justify-between items-start">
             <div>
@@ -30,10 +29,8 @@
         </div>
     </header>
 
-    <!-- Main Content -->
     <main class="px-8 py-12 max-w-4xl mx-auto">
         
-        <!-- Project Header -->
         <section class="mb-16">
             <h2 class="text-3xl font-medium mb-4">Searchable Study Spaces Booking System</h2>
             <p class="text-sm font-light text-stone-600 mb-8">University of Michigan Library — 2023</p>
@@ -54,25 +51,43 @@
             </div>
         </section>
 
-        <!-- Project Goal -->
-        <section class="mb-16 border-t border-stone-300 pt-12">
-            <h3 class="text-xl font-medium mb-4">Project Goal</h3>
-            <p class="text-base font-light leading-relaxed mb-4">
+        <section class="mb-16 border-t border-gray-300 pt-12">
+            <h3 class="text-xl font-medium mb-6">Project Goal</h3>
+            
+            <p class="text-lg font-light leading-relaxed mb-6">
                 Improve the library's study space reservation system with searchable and filterable features to make spaces findable for students.
             </p>
-            <p class="text-base font-light leading-relaxed">
-                Students experienced issues searching and booking study spaces on the library's booking site, often unable to find spaces that matched their needs for noise level, atmosphere, and amenities.
-            </p>
+
+            <div class="grid md:grid-cols-2 gap-6">
+                <div class="bg-red-50 border border-red-200 p-6 rounded-lg">
+                    <p class="font-medium text-red-900 mb-3">Current Challenges</p>
+                    <ul class="text-sm font-light text-stone-700 space-y-2">
+                        <li>• Students couldn't search by noise level</li>
+                        <li>• No filtering for atmosphere or amenities</li>
+                        <li>• Difficult to find spaces matching needs</li>
+                        <li>• Lack of visual context for spaces</li>
+                    </ul>
+                </div>
+
+                <div class="bg-green-50 border border-green-200 p-6 rounded-lg">
+                    <p class="font-medium text-green-900 mb-3">Intended Outcomes</p>
+                    <ul class="text-sm font-light text-stone-700 space-y-2">
+                        <li>• Identify effective filter patterns</li>
+                        <li>• Test searchability features</li>
+                        <li>• Recommend visual improvements</li>
+                        <li>• Prioritize feature development</li>
+                    </ul>
+                </div>
+            </div>
         </section>
 
-        <!-- My Contribution -->
         <section class="mb-16">
             <h3 class="text-xl font-medium mb-4">My Contribution</h3>
             <p class="text-base font-light leading-relaxed mb-6">
                 As UX Researcher, I led the usability testing phase of this collaborative research project, conducting tests across multiple university booking systems to understand how students interact with different interface patterns.
             </p>
             
-            <div class="bg-white border border-stone-200 p-6">
+            <div class="bg-white border border-gray-200 p-6">
                 <ul class="text-sm font-light leading-relaxed text-stone-700 space-y-2">
                     <li>• Conducted competitive analysis of 4 university booking systems (Cambridge, NYU, UT Austin, Duke)</li>
                     <li>• Led 15 usability tests with U of M students</li>
@@ -83,84 +98,156 @@
             </div>
         </section>
 
-        <!-- Process -->
-        <section class="mb-16 border-t border-stone-300 pt-12">
-            <h3 class="text-xl font-medium mb-6">Process</h3>
+        <section class="mb-16 border-t border-gray-300 pt-12">
+            <h3 class="text-xl font-medium mb-6">Process & Methods</h3>
 
-            <div class="space-y-6">
-                <div class="border-l-3 border-stone-900 pl-6">
-                    <p class="font-medium mb-2">1. Competitive Analysis</p>
-                    <p class="text-sm font-light leading-relaxed text-stone-700">
+            <div class="grid md:grid-cols-2 gap-6 mb-8">
+                <div class="bg-blue-50 border border-blue-200 p-6 rounded-lg">
+                    <p class="text-2xl font-light mb-1">4</p>
+                    <p class="text-sm font-medium color: #000000 mb-2">Universities Analyzed</p>
+                    <p class="text-xs font-light text-stone-600">Cambridge, NYU, UT Austin, Duke</p>
+                </div>
+
+                <div class="bg-blue-50 border border-blue-200 p-6 rounded-lg">
+                    <p class="text-2xl font-light mb-1">15</p>
+                    <p class="text-sm font-medium color: #000000 mb-2">Usability Tests</p>
+                    <p class="text-xs font-light text-stone-600">With U of M students</p>
+                </div>
+
+                <div class="bg-blue-50 border border-blue-200 p-6 rounded-lg">
+                    <p class="text-2xl font-light mb-1">2</p>
+                    <p class="text-sm font-medium color: #000000 mb-2">Mock-up Versions Tested</p>
+                    <p class="text-xs font-light text-stone-600">Vertical and horizontal layouts</p>
+                </div>
+
+                <div class="bg-blue-50 border border-blue-200 p-6 rounded-lg">
+                    <p class="text-2xl font-light mb-1">7</p>
+                    <p class="text-sm font-medium color: #000000 mb-2">Months Duration</p>
+                    <p class="text-xs font-light text-stone-600">October 2022 - April 2023</p>
+                </div>
+            </div>
+
+            <div class="space-y-8">
+                <div>
+                    <p class="text-lg font-medium mb-2">Phase 1: Competitive Analysis</p>
+                    <p class="text-sm font-medium text-stone-600 mb-3">Methods: Heuristic evaluation, feature comparison</p>
+                    <p class="text-sm font-light text-stone-700 mb-4">
                         Analyzed booking systems at University of Cambridge, NYU, UT Austin, and Duke to compare filter categories, filter functionality, search-ability, atmosphere descriptions, location metadata, and features.
                     </p>
+                    <p class="text-sm font-medium color: #000000 mb-2">Key Activities:</p>
+                    <ul class="text-sm font-light text-stone-700 space-y-1">
+                        <li>• Catalogued all filter options across systems</li>
+                        <li>• Compared search functionality and metadata</li>
+                        <li>• Identified best practices in visual information presentation</li>
+                    </ul>
                 </div>
 
-                <div class="border-l-3 border-stone-900 pl-6">
-                    <p class="font-medium mb-2">2. Mock-up Development</p>
-                    <p class="text-sm font-light leading-relaxed text-stone-700">
-                        Collaborated with UX designer who created two mockups of the study space booking website with filter values for "Noise level" and "Atmosphere." Tested both vertical and horizontal versions.
+                <div>
+                    <p class="text-lg font-medium mb-2">Phase 2: Mock-up Development</p>
+                    <p class="text-sm font-medium text-stone-600 mb-3">Methods: Collaborative design, prototype creation</p>
+                    <p class="text-sm font-light text-stone-700 mb-4">
+                        Collaborated with UX designer who created two mockups of the study space booking website with filter values for "Noise level" and "Atmosphere." Tested both vertical and horizontal filter arrangements to understand student preferences.
                     </p>
+                    <p class="text-sm font-medium color: #000000 mb-2">Key Activities:</p>
+                    <ul class="text-sm font-light text-stone-700 space-y-1">
+                        <li>• Worked with designer on filter categories and values</li>
+                        <li>• Created two layout variations for testing</li>
+                        <li>• Prepared testing protocols for mockups</li>
+                    </ul>
                 </div>
 
-                <div class="border-l-3 border-stone-900 pl-6">
-                    <p class="font-medium mb-2">3. Usability Testing</p>
-                    <p class="text-sm font-light leading-relaxed text-stone-700">
-                        Conducted 15 usability tests, carefully optimizing task order and combinations to prevent bias and data manipulation. Tested across multiple university systems to understand student preferences.
+                <div>
+                    <p class="text-lg font-medium mb-2">Phase 3: Usability Testing</p>
+                    <p class="text-sm font-medium text-stone-600 mb-3">Methods: Task-based testing, think-aloud protocol</p>
+                    <p class="text-sm font-light text-stone-700 mb-4">
+                        Conducted 15 usability tests, carefully optimizing task order and combinations to prevent bias and data manipulation. Tested across multiple university systems to understand student preferences and identify patterns.
                     </p>
+                    <p class="text-sm font-medium color: #000000 mb-2">Key Activities:</p>
+                    <ul class="text-sm font-light text-stone-700 space-y-1">
+                        <li>• Designed task scenarios reflecting real student needs</li>
+                        <li>• Randomized testing order to reduce bias</li>
+                        <li>• Collected both task success data and qualitative feedback</li>
+                    </ul>
                 </div>
 
-                <div class="border-l-3 border-stone-900 pl-6">
-                    <p class="font-medium mb-2">4. Data Synthesis</p>
-                    <p class="text-sm font-light leading-relaxed text-stone-700">
+                <div>
+                    <p class="text-lg font-medium mb-2">Phase 4: Data Synthesis</p>
+                    <p class="text-sm font-medium text-stone-600 mb-3">Methods: Thematic analysis, pattern identification</p>
+                    <p class="text-sm font-light text-stone-700 mb-4">
                         Identified key themes and highlighted outliers across all testing sessions to support design decisions for the future reservation booking system.
                     </p>
+                    <p class="text-sm font-medium color: #000000 mb-2">Key Activities:</p>
+                    <ul class="text-sm font-light text-stone-700 space-y-1">
+                        <li>• Analyzed task completion rates and pain points</li>
+                        <li>• Identified most-requested features</li>
+                        <li>• Developed prioritized recommendations</li>
+                    </ul>
                 </div>
             </div>
         </section>
 
-        <!-- Findings -->
-        <section class="mb-16 border-t border-stone-300 pt-12">
+        <section class="mb-16 border-t border-gray-300 pt-12">
             <h3 class="text-xl font-medium mb-6">Findings</h3>
 
+            <div class="bg-amber-50 border border-amber-200 p-6 rounded-lg mb-8">
+                <div class="flex items-baseline gap-4 mb-2">
+                    <p class="text-4xl font-light color: #000000">4</p>
+                    <p class="text-lg font-medium color: #000000">Critical Feature Needs</p>
+                </div>
+                <p class="text-sm font-light text-stone-700">Students consistently requested across all testing sessions</p>
+            </div>
+
             <div class="space-y-6">
-                <div class="border-l-3 border-stone-900 pl-6">
-                    <p class="font-medium mb-2">1. Visual Information is Critical</p>
-                    <p class="text-sm font-light leading-relaxed text-stone-700">
+                <div class="bg-red-50 border-l-4 border-red-600 p-6 rounded-r-lg">
+                    <div class="flex items-baseline gap-3 mb-3">
+                        <span class="text-3xl font-light text-red-900">1</span>
+                        <p class="text-lg font-medium color: #000000">Visual Information is Critical</p>
+                    </div>
+                    <p class="text-sm font-light text-stone-700">
                         Students emphasized the importance of images and descriptions to understand space characteristics before booking. They wanted to see what the space looked like and understand its atmosphere, not just know its technical specifications.
                     </p>
                 </div>
 
-                <div class="border-l-3 border-stone-900 pl-6">
-                    <p class="font-medium mb-2">2. Students Need Navigation Support</p>
-                    <p class="text-sm font-light leading-relaxed text-stone-700">
+                <div class="bg-orange-50 border-l-4 border-orange-600 p-6 rounded-r-lg">
+                    <div class="flex items-baseline gap-3 mb-3">
+                        <span class="text-3xl font-light text-orange-900">2</span>
+                        <p class="text-lg font-medium color: #000000">Students Need Navigation Support</p>
+                    </div>
+                    <p class="text-sm font-light text-stone-700">
                         Students needed directions and guided instructions throughout the booking process. The current systems assumed familiarity with library spaces and booking procedures that new users didn't have.
                     </p>
                 </div>
 
-                <div class="border-l-3 border-stone-900 pl-6">
-                    <p class="font-medium mb-2">3. Filtering Out Non-Reservable Spaces</p>
-                    <p class="text-sm font-light leading-relaxed text-stone-700">
+                <div class="bg-yellow-50 border-l-4 border-yellow-600 p-6 rounded-r-lg">
+                    <div class="flex items-baseline gap-3 mb-3">
+                        <span class="text-3xl font-light text-yellow-900">3</span>
+                        <p class="text-lg font-medium color: #000000">Filtering Out Non-Reservable Spaces</p>
+                    </div>
+                    <p class="text-sm font-light text-stone-700">
                         Students were frustrated when they found spaces that couldn't actually be reserved. They were eager for a feature that would filter out non-reservable spaces from results, saving time and reducing confusion.
                     </p>
                 </div>
 
-                <div class="border-l-3 border-stone-900 pl-6">
-                    <p class="font-medium mb-2">4. Noise Level Indicators Highly Requested</p>
-                    <p class="text-sm font-light leading-relaxed text-stone-700">
+                <div class="bg-purple-50 border-l-4 border-purple-600 p-6 rounded-r-lg">
+                    <div class="flex items-baseline gap-3 mb-3">
+                        <span class="text-3xl font-light text-purple-900">4</span>
+                        <p class="text-lg font-medium color: #000000">Noise Level Indicators Highly Requested</p>
+                    </div>
+                    <p class="text-sm font-light text-stone-700">
                         Indicators for noise levels were highly requested to help students find appropriate study environments. Students noted that noise level was often their primary decision factor when choosing a space.
                     </p>
                 </div>
             </div>
         </section>
 
-        <!-- Impact -->
-        <section class="mb-16 border-t border-stone-300 pt-12">
+        <section class="mb-16 border-t border-gray-300 pt-12">
             <h3 class="text-xl font-medium mb-4">Impact</h3>
-            <p class="text-base font-light leading-relaxed mb-6">
+            
+            <p class="text-lg font-light leading-relaxed mb-6">
                 Research findings provided clear direction for feature prioritization and design decisions for the future reservation booking system.
             </p>
 
-            <div class="bg-white border border-stone-200 p-6">
+            <div class="bg-white border border-gray-200 p-6">
                 <p class="text-sm font-medium mb-3">Key Outcomes</p>
                 <ul class="text-sm font-light leading-relaxed text-stone-700 space-y-2">
                     <li>• Developed recommendations for robust filtering system including noise level, atmosphere, group size, and amenities</li>
@@ -173,8 +260,7 @@
 
     </main>
 
-    <!-- Footer -->
-    <footer class="px-8 py-12 max-w-4xl mx-auto border-t border-stone-300 mt-20">
+    <footer class="px-8 py-12 max-w-4xl mx-auto border-t border-gray-300 mt-20">
         <p class="text-xs font-light text-stone-500">© 2026 Marjunique Louis</p>
     </footer>
 

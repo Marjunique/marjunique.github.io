@@ -8,16 +8,15 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600&display=swap');
         body { 
-            font-family: 'Public Sans', sans-serif; 
-            background-color: #fffbeb;
+            font-family: 'Inter', sans-serif; 
+            background-color: #ffffff;
         }
         a { transition: opacity 0.2s; }
         a:hover { opacity: 0.6; }
     </style>
 </head>
-<body class="text-stone-900">
+<body class="color: #000000">
     
-    <!-- Simple Header -->
     <header class="px-8 py-8 max-w-4xl mx-auto">
         <div class="flex justify-between items-start">
             <div>
@@ -30,10 +29,8 @@
         </div>
     </header>
 
-    <!-- Main Content -->
     <main class="px-8 py-12 max-w-4xl mx-auto">
         
-        <!-- Project Header -->
         <section class="mb-16">
             <h2 class="text-3xl font-medium mb-4">Empathizing with Users through UX Research</h2>
             <p class="text-sm font-light text-stone-600 mb-8">Exceptional Lives — 2022</p>
@@ -54,25 +51,43 @@
             </div>
         </section>
 
-        <!-- Project Goal -->
-        <section class="mb-16 border-t border-stone-300 pt-12">
-            <h3 class="text-xl font-medium mb-4">Project Goal</h3>
-            <p class="text-base font-light leading-relaxed mb-4">
+        <section class="mb-16 border-t border-gray-300 pt-12">
+            <h3 class="text-xl font-medium mb-6">Project Goal</h3>
+            
+            <p class="text-lg font-light leading-relaxed mb-6">
                 Test the Exceptional Lives website taxonomy and foster empathy within the team by encouraging them to experience the site as users would—families navigating special education resources.
             </p>
-            <p class="text-base font-light leading-relaxed">
-                The team didn't understand the mental models users were applying to navigate the website. The site was cluttered with too much information on each page and lacked visual hierarchy, making it confusing for new users to find what they needed.
-            </p>
+
+            <div class="grid md:grid-cols-2 gap-6">
+                <div class="bg-red-50 border border-red-200 p-6 rounded-lg">
+                    <p class="font-medium text-red-900 mb-3">Current Challenges</p>
+                    <ul class="text-sm font-light text-stone-700 space-y-2">
+                        <li>• Team didn't understand user mental models</li>
+                        <li>• Site cluttered with too much information</li>
+                        <li>• Lacked visual hierarchy</li>
+                        <li>• Confusing for new users to find resources</li>
+                    </ul>
+                </div>
+
+                <div class="bg-green-50 border border-green-200 p-6 rounded-lg">
+                    <p class="font-medium text-green-900 mb-3">Intended Outcomes</p>
+                    <ul class="text-sm font-light text-stone-700 space-y-2">
+                        <li>• Test website taxonomy with team</li>
+                        <li>• Build team empathy for users</li>
+                        <li>• Identify navigation barriers</li>
+                        <li>• Inform content strategy</li>
+                    </ul>
+                </div>
+            </div>
         </section>
 
-        <!-- My Contribution -->
         <section class="mb-16">
             <h3 class="text-xl font-medium mb-4">My Contribution</h3>
             <p class="text-base font-light leading-relaxed mb-6">
                 As UX Researcher, I designed and facilitated a research process that turned internal team members into users, generating insights and empathy that drove organizational change.
             </p>
             
-            <div class="bg-white border border-stone-200 p-6">
+            <div class="bg-white border border-gray-200 p-6">
                 <ul class="text-sm font-light leading-relaxed text-stone-700 space-y-2">
                     <li>• Developed survey with user scenarios and tasks to prompt team empathy</li>
                     <li>• Deployed survey to 9 team members (CEO, content team, marketing team)</li>
@@ -83,96 +98,176 @@
             </div>
         </section>
 
-        <!-- Process -->
-        <section class="mb-16 border-t border-stone-300 pt-12">
-            <h3 class="text-xl font-medium mb-6">Process</h3>
+        <section class="mb-16 border-t border-gray-300 pt-12">
+            <h3 class="text-xl font-medium mb-6">Process & Methods</h3>
 
-            <div class="space-y-6">
-                <div class="border-l-3 border-stone-900 pl-6">
-                    <p class="font-medium mb-2">1. Survey Development</p>
-                    <p class="text-sm font-light leading-relaxed text-stone-700">
+            <div class="grid md:grid-cols-2 gap-6 mb-8">
+                <div class="bg-blue-50 border border-blue-200 p-6 rounded-lg">
+                    <p class="text-2xl font-light mb-1">9</p>
+                    <p class="text-sm font-medium color: #000000 mb-2">Team Members Surveyed</p>
+                    <p class="text-xs font-light text-stone-600">CEO, content team, marketing team</p>
+                </div>
+
+                <div class="bg-blue-50 border border-blue-200 p-6 rounded-lg">
+                    <p class="text-2xl font-light mb-1">1 hour</p>
+                    <p class="text-sm font-medium color: #000000 mb-2">Group Workshop</p>
+                    <p class="text-xs font-light text-stone-600">Facilitated discussion of findings</p>
+                </div>
+
+                <div class="bg-blue-50 border border-blue-200 p-6 rounded-lg">
+                    <p class="text-2xl font-light mb-1">15-20 min</p>
+                    <p class="text-sm font-medium color: #000000 mb-2">Survey Completion Time</p>
+                    <p class="text-xs font-light text-stone-600">Scenario-based tasks</p>
+                </div>
+
+                <div class="bg-blue-50 border border-blue-200 p-6 rounded-lg">
+                    <p class="text-2xl font-light mb-1">100%</p>
+                    <p class="text-sm font-medium color: #000000 mb-2">Adoption Rate</p>
+                    <p class="text-xs font-light text-stone-600">Methodology became ongoing model</p>
+                </div>
+            </div>
+
+            <div class="space-y-8">
+                <div>
+                    <p class="text-lg font-medium mb-2">Phase 1: Survey Development</p>
+                    <p class="text-sm font-medium text-stone-600 mb-3">Methods: Scenario design, task creation</p>
+                    <p class="text-sm font-light text-stone-700 mb-4">
                         Created scenarios simulating real parent journeys through the website, asking team members to find specific resources as if they were families in need. This prompted them to experience the site without their insider knowledge.
                     </p>
+                    <p class="text-sm font-medium color: #000000 mb-2">Key Activities:</p>
+                    <ul class="text-sm font-light text-stone-700 space-y-1">
+                        <li>• Designed realistic user scenarios based on common family needs</li>
+                        <li>• Created tasks requiring navigation through multiple site sections</li>
+                        <li>• Built survey using Google Forms for easy deployment</li>
+                    </ul>
                 </div>
 
-                <div class="border-l-3 border-stone-900 pl-6">
-                    <p class="font-medium mb-2">2. Survey Deployment</p>
-                    <p class="text-sm font-light leading-relaxed text-stone-700">
-                        Distributed the survey using Google Forms to nine team members, giving each 15-20 minutes to complete it independently before the group discussion.
+                <div>
+                    <p class="text-lg font-medium mb-2">Phase 2: Survey Deployment</p>
+                    <p class="text-sm font-medium text-stone-600 mb-3">Methods: Individual completion, independent testing</p>
+                    <p class="text-sm font-light text-stone-700 mb-4">
+                        Distributed the survey to nine team members, giving each 15-20 minutes to complete it independently before the group discussion. This ensured honest, unbiased feedback.
                     </p>
+                    <p class="text-sm font-medium color: #000000 mb-2">Key Activities:</p>
+                    <ul class="text-sm font-light text-stone-700 space-y-1">
+                        <li>• Sent survey to CEO, content team, and marketing team</li>
+                        <li>• Collected responses independently before workshop</li>
+                        <li>• Prepared synthesis of initial themes</li>
+                    </ul>
                 </div>
 
-                <div class="border-l-3 border-stone-900 pl-6">
-                    <p class="font-medium mb-2">3. Workshop Facilitation</p>
-                    <p class="text-sm font-light leading-relaxed text-stone-700">
+                <div>
+                    <p class="text-lg font-medium mb-2">Phase 3: Workshop Facilitation</p>
+                    <p class="text-sm font-medium text-stone-600 mb-3">Methods: Group discussion, collaborative synthesis</p>
+                    <p class="text-sm font-light text-stone-700 mb-4">
                         Led a one-hour group workshop to discuss experiences and findings. This session revealed how the team's internal knowledge had masked usability issues glaringly obvious to new users.
                     </p>
+                    <p class="text-sm font-medium color: #000000 mb-2">Key Activities:</p>
+                    <ul class="text-sm font-light text-stone-700 space-y-1">
+                        <li>• Facilitated discussion of team members' experiences</li>
+                        <li>• Identified patterns across different departments</li>
+                        <li>• Built shared understanding of user challenges</li>
+                    </ul>
                 </div>
 
-                <div class="border-l-3 border-stone-900 pl-6">
-                    <p class="font-medium mb-2">4. Synthesis & Recommendations</p>
-                    <p class="text-sm font-light leading-relaxed text-stone-700">
+                <div>
+                    <p class="text-lg font-medium mb-2">Phase 4: Synthesis & Recommendations</p>
+                    <p class="text-sm font-medium text-stone-600 mb-3">Methods: Thematic analysis, actionable recommendations</p>
+                    <p class="text-sm font-light text-stone-700 mb-4">
                         Synthesized team insights into actionable recommendations that informed content strategy, website redesign, and ongoing research practices.
                     </p>
+                    <p class="text-sm font-medium color: #000000 mb-2">Key Activities:</p>
+                    <ul class="text-sm font-light text-stone-700 space-y-1">
+                        <li>• Identified key themes from survey and workshop</li>
+                        <li>• Developed recommendations for content and navigation</li>
+                        <li>• Created framework for ongoing family research</li>
+                    </ul>
                 </div>
             </div>
         </section>
 
-        <!-- Findings -->
-        <section class="mb-16 border-t border-stone-300 pt-12">
+        <section class="mb-16 border-t border-gray-300 pt-12">
             <h3 class="text-xl font-medium mb-6">Findings</h3>
 
+            <div class="bg-amber-50 border border-amber-200 p-6 rounded-lg mb-8">
+                <div class="flex items-baseline gap-4 mb-2">
+                    <p class="text-4xl font-light color: #000000">4</p>
+                    <p class="text-lg font-medium color: #000000">Critical Usability Issues</p>
+                </div>
+                <p class="text-sm font-light text-stone-700">That the team's insider knowledge had been masking from view</p>
+            </div>
+
             <div class="space-y-6">
-                <div class="border-l-3 border-stone-900 pl-6">
-                    <p class="font-medium mb-2">1. Too Many Options on Landing Page</p>
-                    <p class="text-sm font-light leading-relaxed text-stone-700 mb-2">
-                        The website presented overwhelming choices without clear hierarchy or guidance.
+                <div class="bg-red-50 border-l-4 border-red-600 p-6 rounded-r-lg">
+                    <div class="flex items-baseline gap-3 mb-3">
+                        <span class="text-3xl font-light text-red-900">1</span>
+                        <p class="text-lg font-medium color: #000000">Too Many Options on Landing Page</p>
+                    </div>
+                    <p class="text-sm font-light text-stone-700 mb-3">
+                        The website presented overwhelming choices without clear hierarchy or guidance. New users didn't know where to start.
                     </p>
-                    <p class="text-xs font-light text-stone-600 italic">
-                        "Too many options on landing page, I didn't know where to start."
-                    </p>
+                    <div class="bg-white border border-red-200 p-4 rounded">
+                        <p class="text-xs font-light text-stone-600 italic">
+                            "Too many options on landing page, I didn't know where to start."
+                        </p>
+                    </div>
                 </div>
 
-                <div class="border-l-3 border-stone-900 pl-6">
-                    <p class="font-medium mb-2">2. Excessive Clicking Required</p>
-                    <p class="text-sm font-light leading-relaxed text-stone-700 mb-2">
+                <div class="bg-orange-50 border-l-4 border-orange-600 p-6 rounded-r-lg">
+                    <div class="flex items-baseline gap-3 mb-3">
+                        <span class="text-3xl font-light text-orange-900">2</span>
+                        <p class="text-lg font-medium color: #000000">Excessive Clicking Required</p>
+                    </div>
+                    <p class="text-sm font-light text-stone-700 mb-3">
                         Information was buried deep in the site structure, requiring multiple clicks to find basic resources.
                     </p>
-                    <p class="text-xs font-light text-stone-600 italic">
-                        "I found helpful info immediately, and with each click there was more. A LOT... didn't know where to click next, but just chose links that stood out for my personal purposes."
-                    </p>
+                    <div class="bg-white border border-orange-200 p-4 rounded">
+                        <p class="text-xs font-light text-stone-600 italic">
+                            "I found helpful info immediately, and with each click there was more. A LOT... didn't know where to click next, but just chose links that stood out for my personal purposes."
+                        </p>
+                    </div>
                 </div>
 
-                <div class="border-l-3 border-stone-900 pl-6">
-                    <p class="font-medium mb-2">3. Location-Based vs. Topic-Based Navigation</p>
-                    <p class="text-sm font-light leading-relaxed text-stone-700 mb-2">
+                <div class="bg-yellow-50 border-l-4 border-yellow-600 p-6 rounded-r-lg">
+                    <div class="flex items-baseline gap-3 mb-3">
+                        <span class="text-3xl font-light text-yellow-900">3</span>
+                        <p class="text-lg font-medium color: #000000">Location-Based vs. Topic-Based Navigation</p>
+                    </div>
+                    <p class="text-sm font-light text-stone-700 mb-3">
                         The menu prioritized geographic organization over topical searches, misaligning with how parents actually look for help.
                     </p>
-                    <p class="text-xs font-light text-stone-600 italic">
-                        "We have a very location based focus in the top menu, more than topical for our main resources. I'm not likely to come to the site to look for a medium, I'm coming with a topic/question."
-                    </p>
+                    <div class="bg-white border border-yellow-200 p-4 rounded">
+                        <p class="text-xs font-light text-stone-600 italic">
+                            "We have a very location based focus in the top menu, more than topical for our main resources. I'm not likely to come to the site to look for a medium, I'm coming with a topic/question."
+                        </p>
+                    </div>
                 </div>
 
-                <div class="border-l-3 border-stone-900 pl-6">
-                    <p class="font-medium mb-2">4. Team Recognition of Barriers</p>
-                    <p class="text-sm font-light leading-relaxed text-stone-700 mb-2">
+                <div class="bg-purple-50 border-l-4 border-purple-600 p-6 rounded-r-lg">
+                    <div class="flex items-baseline gap-3 mb-3">
+                        <span class="text-3xl font-light text-purple-900">4</span>
+                        <p class="text-lg font-medium color: #000000">Team Recognition of Barriers</p>
+                    </div>
+                    <p class="text-sm font-light text-stone-700 mb-3">
                         The exercise successfully created empathy—team members recognized they had made navigation unnecessarily difficult.
                     </p>
-                    <p class="text-xs font-light text-stone-600 italic">
-                        "Wow, do we ever make it hard for people to find what they need!"
-                    </p>
+                    <div class="bg-white border border-purple-200 p-4 rounded">
+                        <p class="text-xs font-light text-stone-600 italic">
+                            "Wow, do we ever make it hard for people to find what they need!"
+                        </p>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <!-- Impact -->
-        <section class="mb-16 border-t border-stone-300 pt-12">
+        <section class="mb-16 border-t border-gray-300 pt-12">
             <h3 class="text-xl font-medium mb-4">Impact</h3>
-            <p class="text-base font-light leading-relaxed mb-6">
+            
+            <p class="text-lg font-light leading-relaxed mb-6">
                 The research methodology was so effective that it became the model for ongoing research with our Family Feedback Team, establishing a scalable approach to gathering user insights.
             </p>
 
-            <div class="bg-white border border-stone-200 p-6">
+            <div class="bg-white border border-gray-200 p-6">
                 <p class="text-sm font-medium mb-3">Key Outcomes</p>
                 <ul class="text-sm font-light leading-relaxed text-stone-700 space-y-2">
                     <li>• Survey methodology became standard for ongoing Family Feedback Team research</li>
@@ -186,8 +281,7 @@
 
     </main>
 
-    <!-- Footer -->
-    <footer class="px-8 py-12 max-w-4xl mx-auto border-t border-stone-300 mt-20">
+    <footer class="px-8 py-12 max-w-4xl mx-auto border-t border-gray-300 mt-20">
         <p class="text-xs font-light text-stone-500">© 2026 Marjunique Louis</p>
     </footer>
 

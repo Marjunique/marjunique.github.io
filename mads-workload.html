@@ -8,16 +8,15 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600&display=swap');
         body { 
-            font-family: 'Public Sans', sans-serif; 
-            background-color: #fffbeb;
+            font-family: 'Inter', sans-serif; 
+            background-color: #ffffff;
         }
         a { transition: opacity 0.2s; }
         a:hover { opacity: 0.6; }
     </style>
 </head>
-<body class="text-stone-900">
+<body class="color: #000000">
     
-    <!-- Simple Header -->
     <header class="px-8 py-8 max-w-4xl mx-auto">
         <div class="flex justify-between items-start">
             <div>
@@ -30,10 +29,8 @@
         </div>
     </header>
 
-    <!-- Main Content -->
     <main class="px-8 py-12 max-w-4xl mx-auto">
         
-        <!-- Project Header -->
         <section class="mb-16">
             <h2 class="text-3xl font-medium mb-4">MADS Workload Data Collection Investigation</h2>
             <p class="text-sm font-light text-stone-600 mb-8">University of Michigan — 2022</p>
@@ -54,25 +51,43 @@
             </div>
         </section>
 
-        <!-- Project Goal -->
-        <section class="mb-16 border-t border-stone-300 pt-12">
-            <h3 class="text-xl font-medium mb-4">Project Goal</h3>
-            <p class="text-base font-light leading-relaxed mb-4">
-                Investigate workload data collection issues and develop actionable recommendations for improvement.
+        <section class="mb-16 border-t border-gray-300 pt-12">
+            <h3 class="text-xl font-medium mb-6">Project Goal</h3>
+            
+            <p class="text-lg font-light leading-relaxed mb-6">
+                Investigate workload data collection issues and develop actionable recommendations for improvement in the Master of Applied Data Science (MADS) program.
             </p>
-            <p class="text-base font-light leading-relaxed">
-                The Master of Applied Data Science (MADS) program needed to better understand how course workload data was being collected, processed, and used across different departments to improve data collection for better course planning and student experience.
-            </p>
+
+            <div class="grid md:grid-cols-2 gap-6">
+                <div class="bg-red-50 border border-red-200 p-6 rounded-lg">
+                    <p class="font-medium text-red-900 mb-3">Current Challenges</p>
+                    <ul class="text-sm font-light text-stone-700 space-y-2">
+                        <li>• Lack of transparency between departments</li>
+                        <li>• Automated systems without follow-up</li>
+                        <li>• Inconsistent terminology across teams</li>
+                        <li>• One-way communication from staff to instructors</li>
+                    </ul>
+                </div>
+
+                <div class="bg-green-50 border border-green-200 p-6 rounded-lg">
+                    <p class="font-medium text-green-900 mb-3">Intended Outcomes</p>
+                    <ul class="text-sm font-light text-stone-700 space-y-2">
+                        <li>• Map data collection workflow</li>
+                        <li>• Identify transparency gaps</li>
+                        <li>• Standardize terminology</li>
+                        <li>• Create feedback loops</li>
+                    </ul>
+                </div>
+            </div>
         </section>
 
-        <!-- My Contribution -->
         <section class="mb-16">
             <h3 class="text-xl font-medium mb-4">My Contribution</h3>
             <p class="text-base font-light leading-relaxed mb-6">
                 As part of the EyesOnYou Team, I conducted contextual inquiry to understand MADS' workload data collection process, the Course Operations Team, and their connection to instructors.
             </p>
             
-            <div class="bg-white border border-stone-200 p-6">
+            <div class="bg-white border border-gray-200 p-6">
                 <ul class="text-sm font-light leading-relaxed text-stone-700 space-y-2">
                     <li>• Conducted background research on existing processes and documentation</li>
                     <li>• Led 6 stakeholder interviews with faculty and staff across departments</li>
@@ -84,84 +99,156 @@
             </div>
         </section>
 
-        <!-- Process -->
-        <section class="mb-16 border-t border-stone-300 pt-12">
-            <h3 class="text-xl font-medium mb-6">Process</h3>
+        <section class="mb-16 border-t border-gray-300 pt-12">
+            <h3 class="text-xl font-medium mb-6">Process & Methods</h3>
 
-            <div class="space-y-6">
-                <div class="border-l-3 border-stone-900 pl-6">
-                    <p class="font-medium mb-2">1. Background Research</p>
-                    <p class="text-sm font-light leading-relaxed text-stone-700">
-                        Conducted individual background research on the MADS program structure, course operations, and existing data collection methods. Collaborated to create comprehensive interview protocol, testing and refining it for gathering insights.
-                    </p>
+            <div class="grid md:grid-cols-2 gap-6 mb-8">
+                <div class="bg-blue-50 border border-blue-200 p-6 rounded-lg">
+                    <p class="text-2xl font-light mb-1">6</p>
+                    <p class="text-sm font-medium color: #000000 mb-2">Stakeholder Interviews</p>
+                    <p class="text-xs font-light text-stone-600">Faculty and staff across departments</p>
                 </div>
 
-                <div class="border-l-3 border-stone-900 pl-6">
-                    <p class="font-medium mb-2">2. Contextual Inquiry</p>
-                    <p class="text-sm font-light leading-relaxed text-stone-700">
+                <div class="bg-blue-50 border border-blue-200 p-6 rounded-lg">
+                    <p class="text-2xl font-light mb-1">3</p>
+                    <p class="text-sm font-medium color: #000000 mb-2">Departments Analyzed</p>
+                    <p class="text-xs font-light text-stone-600">Course Ops, Academic Affairs, Instructional</p>
+                </div>
+
+                <div class="bg-blue-50 border border-blue-200 p-6 rounded-lg">
+                    <p class="text-2xl font-light mb-1">1</p>
+                    <p class="text-sm font-medium color: #000000 mb-2">Communication Flow Map</p>
+                    <p class="text-xs font-light text-stone-600">Current vs. ideal vision created</p>
+                </div>
+
+                <div class="bg-blue-50 border border-blue-200 p-6 rounded-lg">
+                    <p class="text-2xl font-light mb-1">5</p>
+                    <p class="text-sm font-medium color: #000000 mb-2">Months Duration</p>
+                    <p class="text-xs font-light text-stone-600">August - December 2022</p>
+                </div>
+            </div>
+
+            <div class="space-y-8">
+                <div>
+                    <p class="text-lg font-medium mb-2">Phase 1: Background Research</p>
+                    <p class="text-sm font-medium text-stone-600 mb-3">Methods: Document review, process documentation</p>
+                    <p class="text-sm font-light text-stone-700 mb-4">
+                        Conducted individual background research on the MADS program structure, course operations, and existing data collection methods. Collaborated with team to create comprehensive interview protocol, testing and refining it for gathering insights.
+                    </p>
+                    <p class="text-sm font-medium color: #000000 mb-2">Key Activities:</p>
+                    <ul class="text-sm font-light text-stone-700 space-y-1">
+                        <li>• Reviewed existing MADS documentation and processes</li>
+                        <li>• Mapped current understanding of data collection workflow</li>
+                        <li>• Developed interview protocol collaboratively</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <p class="text-lg font-medium mb-2">Phase 2: Contextual Inquiry</p>
+                    <p class="text-sm font-medium text-stone-600 mb-3">Methods: Stakeholder interviews, observation</p>
+                    <p class="text-sm font-light text-stone-700 mb-4">
                         Conducted 6 interviews with faculty and staff from various departments—Course Operations, Academic Affairs, and Instructional teams—to understand communication patterns and identify gaps not visible in documentation.
                     </p>
+                    <p class="text-sm font-medium color: #000000 mb-2">Key Activities:</p>
+                    <ul class="text-sm font-light text-stone-700 space-y-1">
+                        <li>• Interviewed Course Operations team about data collection process</li>
+                        <li>• Spoke with Academic Affairs about data usage</li>
+                        <li>• Gathered instructor perspectives on submission experience</li>
+                    </ul>
                 </div>
 
-                <div class="border-l-3 border-stone-900 pl-6">
-                    <p class="font-medium mb-2">3. Affinity Wall Building</p>
-                    <p class="text-sm font-light leading-relaxed text-stone-700">
+                <div>
+                    <p class="text-lg font-medium mb-2">Phase 3: Affinity Wall Building</p>
+                    <p class="text-sm font-medium text-stone-600 mb-3">Methods: Thematic analysis, pattern identification</p>
+                    <p class="text-sm font-light text-stone-700 mb-4">
                         Used affinity wall building to synthesize findings and identify patterns across different departments and roles. Revealed systemic issues that weren't obvious from individual interviews.
                     </p>
+                    <p class="text-sm font-medium color: #000000 mb-2">Key Activities:</p>
+                    <ul class="text-sm font-light text-stone-700 space-y-1">
+                        <li>• Grouped interview insights into themes</li>
+                        <li>• Identified patterns in communication breakdowns</li>
+                        <li>• Surfaced terminology inconsistencies</li>
+                    </ul>
                 </div>
 
-                <div class="border-l-3 border-stone-900 pl-6">
-                    <p class="font-medium mb-2">4. Communication Flow Mapping</p>
-                    <p class="text-sm font-light leading-relaxed text-stone-700">
+                <div>
+                    <p class="text-lg font-medium mb-2">Phase 4: Communication Flow Mapping</p>
+                    <p class="text-sm font-medium text-stone-600 mb-3">Methods: Process mapping, visualization</p>
+                    <p class="text-sm font-light text-stone-700 mb-4">
                         Mapped current communication flow between stakeholders and developed ideal vision showing where transparency was lacking and how to address gaps.
                     </p>
+                    <p class="text-sm font-medium color: #000000 mb-2">Key Activities:</p>
+                    <ul class="text-sm font-light text-stone-700 space-y-1">
+                        <li>• Visualized current state communication flow</li>
+                        <li>• Identified missing connections between departments</li>
+                        <li>• Created ideal state vision with feedback loops</li>
+                    </ul>
                 </div>
             </div>
         </section>
 
-        <!-- Findings -->
-        <section class="mb-16 border-t border-stone-300 pt-12">
+        <section class="mb-16 border-t border-gray-300 pt-12">
             <h3 class="text-xl font-medium mb-6">Findings</h3>
 
+            <div class="bg-amber-50 border border-amber-200 p-6 rounded-lg mb-8">
+                <div class="flex items-baseline gap-4 mb-2">
+                    <p class="text-4xl font-light color: #000000">4</p>
+                    <p class="text-lg font-medium color: #000000">Systemic Issues Identified</p>
+                </div>
+                <p class="text-sm font-light text-stone-700">That weren't obvious from individual perspectives</p>
+            </div>
+
             <div class="space-y-6">
-                <div class="border-l-3 border-stone-900 pl-6">
-                    <p class="font-medium mb-2">1. Departmental Transparency Gap</p>
-                    <p class="text-sm font-light leading-relaxed text-stone-700">
+                <div class="bg-red-50 border-l-4 border-red-600 p-6 rounded-r-lg">
+                    <div class="flex items-baseline gap-3 mb-3">
+                        <span class="text-3xl font-light text-red-900">1</span>
+                        <p class="text-lg font-medium color: #000000">Departmental Transparency Gap</p>
+                    </div>
+                    <p class="text-sm font-light text-stone-700">
                         Significant lack of transparency between stakeholders about how workload data was being collected, processed, and used. Different departments had incomplete pictures of the overall process.
                     </p>
                 </div>
 
-                <div class="border-l-3 border-stone-900 pl-6">
-                    <p class="font-medium mb-2">2. Automation Without Follow-up</p>
-                    <p class="text-sm font-light leading-relaxed text-stone-700">
+                <div class="bg-orange-50 border-l-4 border-orange-600 p-6 rounded-r-lg">
+                    <div class="flex items-baseline gap-3 mb-3">
+                        <span class="text-3xl font-light text-orange-900">2</span>
+                        <p class="text-lg font-medium color: #000000">Automation Without Follow-up</p>
+                    </div>
+                    <p class="text-sm font-light text-stone-700">
                         While systems were automated for instructors to submit workload data, there was insufficient follow-up to ensure instructors understood how to use them or had their questions answered.
                     </p>
                 </div>
 
-                <div class="border-l-3 border-stone-900 pl-6">
-                    <p class="font-medium mb-2">3. Inconsistent Terminology</p>
-                    <p class="text-sm font-light leading-relaxed text-stone-700">
+                <div class="bg-yellow-50 border-l-4 border-yellow-600 p-6 rounded-r-lg">
+                    <div class="flex items-baseline gap-3 mb-3">
+                        <span class="text-3xl font-light text-yellow-900">3</span>
+                        <p class="text-lg font-medium color: #000000">Inconsistent Terminology</p>
+                    </div>
+                    <p class="text-sm font-light text-stone-700">
                         Different departments used varying terminology for the same concepts. What Course Operations called "workload estimates" was "time investment data" to Academic Affairs and "course hours" to instructors.
                     </p>
                 </div>
 
-                <div class="border-l-3 border-stone-900 pl-6">
-                    <p class="font-medium mb-2">4. One-Way Communication</p>
-                    <p class="text-sm font-light leading-relaxed text-stone-700">
+                <div class="bg-purple-50 border-l-4 border-purple-600 p-6 rounded-r-lg">
+                    <div class="flex items-baseline gap-3 mb-3">
+                        <span class="text-3xl font-light text-purple-900">4</span>
+                        <p class="text-lg font-medium color: #000000">One-Way Communication</p>
+                    </div>
+                    <p class="text-sm font-light text-stone-700">
                         Communication flowed from Course Operations to instructors with no feedback loop on data completeness or quality. Unclear ownership of follow-up when instructors didn't respond.
                     </p>
                 </div>
             </div>
         </section>
 
-        <!-- Impact -->
-        <section class="mb-16 border-t border-stone-300 pt-12">
+        <section class="mb-16 border-t border-gray-300 pt-12">
             <h3 class="text-xl font-medium mb-4">Impact</h3>
-            <p class="text-base font-light leading-relaxed mb-6">
+            
+            <p class="text-lg font-light leading-relaxed mb-6">
                 Developed multi-step system to standardize data collection, disbursement, and utilization with focus on transparency, communication, regular surveys, and debriefs to create continuous improvement cycle.
             </p>
 
-            <div class="bg-white border border-stone-200 p-6">
+            <div class="bg-white border border-gray-200 p-6">
                 <p class="text-sm font-medium mb-3">Key Outcomes</p>
                 <ul class="text-sm font-light leading-relaxed text-stone-700 space-y-2">
                     <li>• Recommended shared data dictionary to establish standardized terminology across all departments</li>
@@ -175,8 +262,7 @@
 
     </main>
 
-    <!-- Footer -->
-    <footer class="px-8 py-12 max-w-4xl mx-auto border-t border-stone-300 mt-20">
+    <footer class="px-8 py-12 max-w-4xl mx-auto border-t border-gray-300 mt-20">
         <p class="text-xs font-light text-stone-500">© 2026 Marjunique Louis</p>
     </footer>
 

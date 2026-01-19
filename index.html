@@ -3,237 +3,268 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Marjunique Louis</title>
+    <title>Marjunique Louis — Design Researcher</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap');
         body { 
-            font-family: 'Public Sans', sans-serif; 
-            background-color: #fffbeb;
+            font-family: 'Inter', sans-serif; 
+            background-color: #ffffff;
+            color: #000000;
         }
-        a { transition: opacity 0.2s; }
-        a:hover { opacity: 0.6; }
-        .project-link:hover img { transform: scale(1.02); }
-        .project-link img { transition: transform 0.3s ease; }
+        a { 
+            transition: opacity 0.2s ease;
+            text-decoration: none;
+        }
+        a:hover { 
+            opacity: 0.5;
+        }
+        .project-link {
+            border-bottom: 1px solid #e5e5e5;
+        }
+        .project-link:hover {
+            background-color: #fafafa;
+        }
     </style>
 </head>
-<body class="text-stone-900">
+<body class="antialiased">
     
-    <!-- Simple Header -->
-    <header class="px-8 py-8 max-w-4xl mx-auto">
-        <div class="flex justify-between items-start">
-            <div>
-                <h1 class="text-xl font-medium mb-1">Marjunique Louis</h1>
-                <p class="text-sm font-light text-stone-600">Design Researcher</p>
+    <!-- Header -->
+    <header class="px-6 md:px-12 lg:px-24 py-12 md:py-16">
+        <div class="max-w-5xl mx-auto">
+            <div class="flex justify-between items-baseline">
+                <h1 class="text-2xl md:text-3xl font-light tracking-tight">Marjunique Louis</h1>
+                <nav class="flex gap-6 md:gap-8 text-sm">
+                    <a href="#work">Work</a>
+                    <a href="#about">About</a>
+                    <a href="#contact">Contact</a>
+                </nav>
             </div>
-            <nav class="flex gap-6 text-sm font-light">
-                <a href="#work">Work</a>
-                <a href="about.html">About</a>
-                <a href="#contact">Contact</a>
-            </nav>
         </div>
     </header>
 
     <!-- Main Content -->
-    <main class="px-8 py-12 max-w-4xl mx-auto">
-        
-        <!-- Intro -->
-        <section class="mb-20">
-            <p class="text-lg font-light leading-relaxed mb-6">
-                Marjunique Louis is a design researcher with 5+ years of experience in accessibility, language access, and inclusive research methods. Her work focuses on understanding how people interact with services and systems, particularly when language, accessibility, or policy creates barriers.
-            </p>
-            <p class="text-lg font-light leading-relaxed">
-                She is currently Lead UX Researcher at U.S. Digital Response, based in New Orleans, Louisiana.
-            </p>
-        </section>
-
-        <!-- Selected Work -->
-        <section id="work" class="mb-20">
-            <h2 class="text-sm font-medium tracking-wide mb-12">SELECTED WORK</h2>
+    <main class="px-6 md:px-12 lg:px-24">
+        <div class="max-w-5xl mx-auto">
             
-            <div class="space-y-16">
-                
-                <!-- Project 1: NJ Language Access -->
-                <article class="project-link border-b border-stone-200 pb-12">
-                    <a href="nj-language-access.html" class="block">
-                        <h3 class="text-xl font-medium mb-2">Language Access for NJ TDI/FLI Programs</h3>
-                        <p class="text-sm font-light text-stone-600 mb-4">U.S. Digital Response for NJ Department of Labor — 2025</p>
-                        <p class="text-base font-light leading-relaxed mb-4">
-                            Developed AI-powered translation systems with validated multilingual glossaries for Spanish and Haitian Creole-speaking communities. Led community testing with 5+ participants, resulting in translations that outperformed vendor quality in accuracy and cultural relevance.
-                        </p>
-                        <p class="text-sm font-light text-stone-600">Mixed-methods research, Community testing, Translation framework development</p>
-                    </a>
-                </article>
-
-                <!-- Project 2: Miami Daycare -->
-                <article class="project-link border-b border-stone-200 pb-12">
-                    <a href="miami-daycare.html" class="block">
-                        <h3 class="text-xl font-medium mb-2">Improving Daycare Access Through Journey Mapping</h3>
-                        <p class="text-sm font-light text-stone-600 mb-4">U.S. Digital Response for Miami Department of Human Services — 2024</p>
-                        <p class="text-base font-light leading-relaxed mb-4">
-                            Led comprehensive journey mapping of daycare application process, interviewing 15+ parents and staff. Identified 16+ pain points across 5 journey stages, with focus on English, Spanish, and Haitian Creole-speaking communities.
-                        </p>
-                        <p class="text-sm font-light text-stone-600">Journey mapping, Stakeholder interviews, Service design</p>
-                    </a>
-                </article>
-
-                <!-- Project 3: Dearborn -->
-                <article class="project-link border-b border-stone-200 pb-12">
-                    <a href="dearborn-project.html" class="block">
-                        <h3 class="text-xl font-medium mb-2">Optimizing Translation Process</h3>
-                        <p class="text-sm font-light text-stone-600 mb-4">City of Dearborn — 2023</p>
-                        <p class="text-base font-light leading-relaxed mb-4">
-                            Optimized city translation services for Arabic-speaking residents (30% of population). Conducted stakeholder interviews and workflow mapping across six stages, identifying systemic pain points.
-                        </p>
-                        <p class="text-sm font-light text-stone-600">Stakeholder interviews, Process mapping, Service design</p>
-                    </a>
-                </article>
-
-                <!-- Project 4: U of M Study Spaces -->
-                <article class="project-link border-b border-stone-200 pb-12">
-                    <a href="umich-study-spaces.html" class="block">
-                        <h3 class="text-xl font-medium mb-2">Searchable Study Spaces Booking System</h3>
-                        <p class="text-sm font-light text-stone-600 mb-4">University of Michigan Library — 2023</p>
-                        <p class="text-base font-light leading-relaxed mb-4">
-                            Improved library study space booking system through competitive analysis and usability testing. Conducted 15 usability tests across multiple university systems.
-                        </p>
-                        <p class="text-sm font-light text-stone-600">Competitive analysis, Usability testing, Data analysis</p>
-                    </a>
-                </article>
-
-                <!-- Project 5: Exceptional Lives UX Research -->
-                <article class="project-link border-b border-stone-200 pb-12">
-                    <a href="exceptional-lives-ux.html" class="block">
-                        <h3 class="text-xl font-medium mb-2">Empathizing with Users through UX Research</h3>
-                        <p class="text-sm font-light text-stone-600 mb-4">Exceptional Lives — 2022</p>
-                        <p class="text-base font-light leading-relaxed mb-4">
-                            Led user research to test website taxonomy and build team empathy for users. Developed survey-based methodology that became the model for ongoing family research.
-                        </p>
-                        <p class="text-sm font-light text-stone-600">User scenarios, Survey design, Workshop facilitation</p>
-                    </a>
-                </article>
-
-                <!-- Project 6: MADS Workload Investigation -->
-                <article class="project-link border-b border-stone-200 pb-12">
-                    <a href="mads-workload.html" class="block">
-                        <h3 class="text-xl font-medium mb-2">MADS Workload Data Collection Investigation</h3>
-                        <p class="text-sm font-light text-stone-600 mb-4">University of Michigan — 2022</p>
-                        <p class="text-base font-light leading-relaxed mb-4">
-                            Investigated workload data collection issues through contextual inquiry with faculty and staff. Identified three critical gaps in departmental transparency.
-                        </p>
-                        <p class="text-sm font-light text-stone-600">Contextual inquiry, Stakeholder interviews, Data analysis</p>
-                    </a>
-                </article>
-
-            </div>
-        </section>
-
-        <!-- Approach -->
-        <section class="mb-20 border-t border-stone-300 pt-20">
-            <h2 class="text-sm font-medium tracking-wide mb-8">APPROACH</h2>
-            
-            <div class="grid md:grid-cols-3 gap-12">
-                <div>
-                    <h3 class="text-base font-medium mb-3">Community-Centered</h3>
-                    <p class="text-sm font-light leading-relaxed text-stone-700">
-                        Research conducted with communities, not on them. Every project begins with deep listening and centers the voices of those most impacted.
-                    </p>
-                </div>
-                <div>
-                    <h3 class="text-base font-medium mb-3">Mixed-Methods</h3>
-                    <p class="text-sm font-light leading-relaxed text-stone-700">
-                        Combining qualitative depth with quantitative rigor. Using interviews, usability testing, surveys, and analytics to validate insights.
-                    </p>
-                </div>
-                <div>
-                    <h3 class="text-base font-medium mb-3">Action-Oriented</h3>
-                    <p class="text-sm font-light leading-relaxed text-stone-700">
-                        Translating findings into clear, implementable recommendations. Research isn't complete until it drives meaningful change.
-                    </p>
-                </div>
-            </div>
-        </section>
-
-        <!-- Experience Highlights -->
-        <section class="mb-20">
-            <h2 class="text-sm font-medium tracking-wide mb-8">EXPERIENCE</h2>
-            
-            <div class="space-y-8">
-                <div>
-                    <div class="flex justify-between mb-1">
-                        <p class="text-base font-medium">Lead UX Researcher</p>
-                        <p class="text-sm font-light text-stone-600">2024 — 2025</p>
-                    </div>
-                    <p class="text-sm font-light text-stone-600 mb-2">U.S. Digital Response</p>
-                    <p class="text-sm font-light leading-relaxed text-stone-700">
-                        Led mixed-methods research across Miami and New Jersey, mapped user journeys identifying 16+ pain points, developed AI translation systems for multilingual accessibility.
-                    </p>
-                </div>
-
-                <div>
-                    <div class="flex justify-between mb-1">
-                        <p class="text-base font-medium">UX Strategist</p>
-                        <p class="text-sm font-light text-stone-600">2024 — 2025</p>
-                    </div>
-                    <p class="text-sm font-light text-stone-600 mb-2">Exceptional Lives</p>
-                    <p class="text-sm font-light leading-relaxed text-stone-700">
-                        Directed UX strategy across 5 digital accessibility products, increased user engagement by 25%, executed competitive and user analysis.
-                    </p>
-                </div>
-
-                <div>
-                    <div class="flex justify-between mb-1">
-                        <p class="text-base font-medium">Design Research Intern</p>
-                        <p class="text-sm font-light text-stone-600">2024</p>
-                    </div>
-                    <p class="text-sm font-light text-stone-600 mb-2">Public Policy Lab</p>
-                    <p class="text-sm font-light leading-relaxed text-stone-700">
-                        Conducted 10+ ethnographic field interviews for NYC's Reticketing Initiative, translated findings into staff resources.
-                    </p>
-                </div>
-
-                <div>
-                    <div class="flex justify-between mb-1">
-                        <p class="text-base font-medium">UX Research Assistant</p>
-                        <p class="text-sm font-light text-stone-600">2022 — 2024</p>
-                    </div>
-                    <p class="text-sm font-light text-stone-600 mb-2">University of Michigan Library</p>
-                    <p class="text-sm font-light leading-relaxed text-stone-700">
-                        Executed 10 usability tests, 58 intercept interviews, led 10-person focus group, synthesized qualitative data for service optimization.
-                    </p>
-                </div>
-            </div>
-
-            <div class="mt-8">
-                <a href="https://acrobat.adobe.com/link/review?uri=urn%3Aaaid%3Ascds%3AUS%3A61758dd8-c2a0-3b38-ba06-e5339d0a5153" target="_blank" class="text-sm underline">
-                    View full resume →
-                </a>
-            </div>
-        </section>
-
-        <!-- Contact -->
-        <section id="contact" class="border-t border-stone-300 pt-20">
-            <h2 class="text-sm font-medium tracking-wide mb-8">GET IN TOUCH</h2>
-            
-            <div class="space-y-4">
-                <p class="text-base font-light leading-relaxed">
-                    Based in New Orleans, Louisiana and open to remote research opportunities. Particularly interested in projects focused on accessibility, language access, and public service design.
+            <!-- Intro -->
+            <section class="mb-24 md:mb-32">
+                <p class="text-base md:text-lg font-light leading-relaxed max-w-3xl">
+                    Design researcher with 5+ years of experience in accessibility, language access, and inclusive research methods. Currently Lead UX Researcher at U.S. Digital Response, based in New Orleans, Louisiana.
                 </p>
-                
-                <div class="flex gap-8 text-sm">
-                    <a href="mailto:marjunique.louis@gmail.com" class="underline">Email</a>
-                    <a href="https://linkedin.com/in/marjuniquelouis" target="_blank" class="underline">LinkedIn</a>
-                    <a href="about.html" class="underline">About</a>
-                </div>
-            </div>
-        </section>
+            </section>
 
+            <!-- Selected Work -->
+            <section id="work" class="mb-24 md:mb-32">
+                <h2 class="text-xs uppercase tracking-widest mb-12 md:mb-16 font-normal opacity-50">Selected Work</h2>
+                
+                <div class="space-y-0">
+                    
+                    <!-- Project 1: NJ Language Access -->
+                    <article class="project-link">
+                        <a href="nj-language-access.html" class="block py-8 md:py-10">
+                            <div class="grid md:grid-cols-12 gap-4 md:gap-8">
+                                <div class="md:col-span-8">
+                                    <h3 class="text-lg md:text-xl font-normal mb-2">Language Access for NJ TDI/FLI Programs</h3>
+                                    <p class="text-sm font-light opacity-60 mb-3">U.S. Digital Response for NJ Department of Labor — 2025</p>
+                                    <p class="text-sm font-light leading-relaxed">
+                                        Developed AI-powered translation systems with validated multilingual glossaries for Spanish and Haitian Creole-speaking communities.
+                                    </p>
+                                </div>
+                                <div class="md:col-span-4 md:text-right mt-2 md:mt-0">
+                                    <p class="text-xs font-light opacity-40">Mixed-methods research, Community testing</p>
+                                </div>
+                            </div>
+                        </a>
+                    </article>
+
+                    <!-- Project 2: Miami Daycare -->
+                    <article class="project-link">
+                        <a href="miami-daycare.html" class="block py-8 md:py-10">
+                            <div class="grid md:grid-cols-12 gap-4 md:gap-8">
+                                <div class="md:col-span-8">
+                                    <h3 class="text-lg md:text-xl font-normal mb-2">Improving Daycare Access Through Journey Mapping</h3>
+                                    <p class="text-sm font-light opacity-60 mb-3">U.S. Digital Response for Miami Department of Human Services — 2024</p>
+                                    <p class="text-sm font-light leading-relaxed">
+                                        Led comprehensive journey mapping of daycare application process, interviewing 15+ parents and staff across 5 journey stages.
+                                    </p>
+                                </div>
+                                <div class="md:col-span-4 md:text-right mt-2 md:mt-0">
+                                    <p class="text-xs font-light opacity-40">Journey mapping, Stakeholder interviews</p>
+                                </div>
+                            </div>
+                        </a>
+                    </article>
+
+                    <!-- Project 3: Soul Care -->
+                    <article class="project-link">
+                        <a href="soulcare.html" class="block py-8 md:py-10">
+                            <div class="grid md:grid-cols-12 gap-4 md:gap-8">
+                                <div class="md:col-span-8">
+                                    <h3 class="text-lg md:text-xl font-normal mb-2">Soul Care: Culturally Responsive Mental Health for Foster Youth</h3>
+                                    <p class="text-sm font-light opacity-60 mb-3">Public Policy Lab for NYC Administration for Children's Services — 2024</p>
+                                    <p class="text-sm font-light leading-relaxed">
+                                        Developed holistic well-being framework and coach guidebook for culturally responsive mental health support. Conducted 6+ interviews with youth, coaches, and psychology professionals.
+                                    </p>
+                                </div>
+                                <div class="md:col-span-4 md:text-right mt-2 md:mt-0">
+                                    <p class="text-xs font-light opacity-40">Framework development, Content design</p>
+                                </div>
+                            </div>
+                        </a>
+                    </article>
+
+                    <!-- Project 4: Reconnections -->
+                    <article class="project-link">
+                        <a href="reconnections.html" class="block py-8 md:py-10">
+                            <div class="grid md:grid-cols-12 gap-4 md:gap-8">
+                                <div class="md:col-span-8">
+                                    <h3 class="text-lg md:text-xl font-normal mb-2">Reconnections for Asylum Seekers</h3>
+                                    <p class="text-sm font-light opacity-60 mb-3">Public Policy Lab for NYC Mayor's Office of Asylum Seeker Operations — 2024</p>
+                                    <p class="text-sm font-light leading-relaxed">
+                                        Researched communication methods and information architecture for multilingual posters serving asylum seekers. Conducted 5+ interviews with migrants and frontline staff.
+                                    </p>
+                                </div>
+                                <div class="md:col-span-4 md:text-right mt-2 md:mt-0">
+                                    <p class="text-xs font-light opacity-40">Information architecture, Multilingual design</p>
+                                </div>
+                            </div>
+                        </a>
+                    </article>
+
+                    <!-- Project 5: Dearborn -->
+                    <article class="project-link">
+                        <a href="dearborn-project.html" class="block py-8 md:py-10">
+                            <div class="grid md:grid-cols-12 gap-4 md:gap-8">
+                                <div class="md:col-span-8">
+                                    <h3 class="text-lg md:text-xl font-normal mb-2">Optimizing Translation Process</h3>
+                                    <p class="text-sm font-light opacity-60 mb-3">City of Dearborn — 2023</p>
+                                    <p class="text-sm font-light leading-relaxed">
+                                        Optimized city translation services for Arabic-speaking residents (30% of population) through workflow mapping and stakeholder interviews.
+                                    </p>
+                                </div>
+                                <div class="md:col-span-4 md:text-right mt-2 md:mt-0">
+                                    <p class="text-xs font-light opacity-40">Process mapping, Service design</p>
+                                </div>
+                            </div>
+                        </a>
+                    </article>
+
+                    <!-- Project 6: U of M Study Spaces -->
+                    <article class="project-link">
+                        <a href="umich-study-spaces.html" class="block py-8 md:py-10">
+                            <div class="grid md:grid-cols-12 gap-4 md:gap-8">
+                                <div class="md:col-span-8">
+                                    <h3 class="text-lg md:text-xl font-normal mb-2">Searchable Study Spaces Booking System</h3>
+                                    <p class="text-sm font-light opacity-60 mb-3">University of Michigan Library — 2023</p>
+                                    <p class="text-sm font-light leading-relaxed">
+                                        Improved library study space booking system through competitive analysis and 15 usability tests across multiple university systems.
+                                    </p>
+                                </div>
+                                <div class="md:col-span-4 md:text-right mt-2 md:mt-0">
+                                    <p class="text-xs font-light opacity-40">Competitive analysis, Usability testing</p>
+                                </div>
+                            </div>
+                        </a>
+                    </article>
+
+                    <!-- Project 7: Exceptional Lives -->
+                    <article class="project-link">
+                        <a href="exceptional-lives-ux.html" class="block py-8 md:py-10">
+                            <div class="grid md:grid-cols-12 gap-4 md:gap-8">
+                                <div class="md:col-span-8">
+                                    <h3 class="text-lg md:text-xl font-normal mb-2">Empathizing with Users through UX Research</h3>
+                                    <p class="text-sm font-light opacity-60 mb-3">Exceptional Lives — 2022</p>
+                                    <p class="text-sm font-light leading-relaxed">
+                                        Led user research to test website taxonomy and build team empathy for users through scenario-based survey methodology.
+                                    </p>
+                                </div>
+                                <div class="md:col-span-4 md:text-right mt-2 md:mt-0">
+                                    <p class="text-xs font-light opacity-40">Survey design, Workshop facilitation</p>
+                                </div>
+                            </div>
+                        </a>
+                    </article>
+
+                    <!-- Project 8: MADS Workload -->
+                    <article class="project-link">
+                        <a href="mads-workload.html" class="block py-8 md:py-10">
+                            <div class="grid md:grid-cols-12 gap-4 md:gap-8">
+                                <div class="md:col-span-8">
+                                    <h3 class="text-lg md:text-xl font-normal mb-2">MADS Workload Data Collection Investigation</h3>
+                                    <p class="text-sm font-light opacity-60 mb-3">University of Michigan — 2022</p>
+                                    <p class="text-sm font-light leading-relaxed">
+                                        Investigated workload data collection through contextual inquiry with 6 stakeholders across three departments.
+                                    </p>
+                                </div>
+                                <div class="md:col-span-4 md:text-right mt-2 md:mt-0">
+                                    <p class="text-xs font-light opacity-40">Contextual inquiry, Data analysis</p>
+                                </div>
+                            </div>
+                        </a>
+                    </article>
+
+                </div>
+            </section>
+
+            <section id="about" class="mb-24 md:mb-32 border-t border-gray-200 pt-16 md:pt-24">
+                <h2 class="text-xs uppercase tracking-widest mb-12 md:mb-16 font-normal opacity-50">About</h2>
+                
+                <div class="grid md:grid-cols-2 gap-12 md:gap-16">
+                    <div>
+                        <p class="text-sm font-light leading-relaxed mb-6">
+                            Marjunique Louis is a design researcher specializing in accessibility and language access. Her work focuses on understanding how people interact with services and systems, particularly when language, accessibility, or policy creates barriers.
+                        </p>
+                        <p class="text-sm font-light leading-relaxed">
+                            She works with government agencies, nonprofits, and educational institutions to make services more equitable and accessible. Her research has directly influenced policy changes, service improvements, and platform redesigns serving thousands of users.
+                        </p>
+                    </div>
+                    <div>
+                        <h3 class="text-sm font-medium mb-4">Approach</h3>
+                        <div class="space-y-4 text-sm font-light leading-relaxed">
+                            <div>
+                                <p class="font-medium mb-1">Community-Centered</p>
+                                <p class="opacity-60">Research conducted with communities, not on them.</p>
+                            </div>
+                            <div>
+                                <p class="font-medium mb-1">Mixed-Methods</p>
+                                <p class="opacity-60">Combining qualitative depth with quantitative rigor.</p>
+                            </div>
+                            <div>
+                                <p class="font-medium mb-1">Action-Oriented</p>
+                                <p class="opacity-60">Research that drives real policy and service changes.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact -->
+            <section id="contact" class="pb-24 md:pb-32 border-t border-gray-200 pt-16 md:pt-24">
+                <h2 class="text-xs uppercase tracking-widest mb-12 md:mb-16 font-normal opacity-50">Contact</h2>
+                
+                <div class="grid md:grid-cols-2 gap-12 md:gap-16">
+                    <div>
+                        <p class="text-sm font-light leading-relaxed mb-6">
+                            Currently available for research consulting and collaborative projects focused on accessibility, language access, and equitable service design.
+                        </p>
+                        <div class="space-y-2 text-sm">
+                            <p><a href="/cdn-cgi/l/email-protection#ea878b98809f84839b9f8faa8f928b879a868fc4898587" class="font-light">Email</a></p>
+                            <p><a href="https://linkedin.com/in/marjuniquelouis" class="font-light">LinkedIn</a></p>
+                        </div>
+                    </div>
+                    <div class="text-sm font-light opacity-60">
+                        <p>Based in New Orleans, Louisiana</p>
+                        <p>Open to remote collaboration</p>
+                    </div>
+                </div>
+            </section>
+
+        </div>
     </main>
 
     <!-- Footer -->
-    <footer class="px-8 py-12 max-w-4xl mx-auto border-t border-stone-300 mt-20">
-        <p class="text-xs font-light text-stone-500">© 2026 Marjunique Louis</p>
-    </footer>
-
-</body>
-</html>
+    <footer class="px-6 md:px-12 lg:px-24 py-12 border-t border-gray-200">
+        <div class="max-w-5xl mx-auto">
+            <p class="text-xs font-light opacity-40">© 2026 Marjunique Louis</p>
+ 
