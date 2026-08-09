@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reimagining Interactive Activities in Guided Programs — Marjunique Louis</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap');
+        body { 
+            font-family: 'Inter', sans-serif; 
+            background-color: #ffffff;
+            color: #000000;
+        }
+        a { transition: opacity 0.2s ease; }
+        a:hover { opacity: 0.5; }
+        .sketch-caption { line-height: 1.4; }
+    </style>
+</head>
+<body class="antialiased">
+    
+    <!-- Header -->
+    <header class="px-6 md:px-12 lg:px-24 py-12 md:py-16">
+        <div class="max-w-5xl mx-auto">
+            <div class="flex justify-between items-start">
+                <div>
+                    <h1 class="text-xl font-medium mb-1">Marjunique Louis</h1>
+                    <p class="text-sm font-light opacity-60">Design Researcher</p>
+                </div>
+                <nav class="flex gap-6 md:gap-8 text-sm">
+                    <a href="index.html">← Back</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="px-6 md:px-12 lg:px-24">
+        <div class="max-w-5xl mx-auto">
+        
+        <!-- Project Header -->
+        <section class="mb-16">
+            <h2 class="text-3xl font-medium mb-4">Reimagining Interactive Activities in Guided Programs</h2>
+            <p class="text-sm font-light text-gray-600 mb-8">Headspace — 2023</p>
+            
+            <div class="grid md:grid-cols-3 gap-8 mb-12 text-sm">
+                <div>
+                    <p class="font-medium mb-1">Role</p>
+                    <p class="font-light text-gray-700">Service Design Intern</p>
+                </div>
+                <div>
+                    <p class="font-medium mb-1">Timeline</p>
+                    <p class="font-light text-gray-700">3 months (May - Aug 2023)</p>
+                </div>
+                <div>
+                    <p class="font-medium mb-1">Methods</p>
+                    <p class="font-light text-gray-700">Concept sketching, Figma prototyping, Service blueprinting</p>
+                </div>
+            </div>
+
+            <p class="text-sm font-light text-gray-500">
+                Companion workstream to <a href="headspace-challenges.html" class="underline">Gamifying Mindfulness: Headspace Challenges</a>, completed during the same internship.
+            </p>
+        </section>
+
+        <!-- Project Goal -->
+        <section class="mb-16 border-t border-gray-200 pt-12">
+            <h3 class="text-xl font-normal mb-6">Project Goal</h3>
+            
+            <p class="text-base font-light leading-relaxed mb-6">
+                Guided Programs is where Headspace members work through multi-session courses on stress, sleep, and focus. I explored how the activities inside those programs could become more interactive and personal, so members who fall off a streak, finish a session, or want extra support have a clear, encouraging path back in.
+            </p>
+
+            <div class="grid md:grid-cols-2 gap-6">
+                <div class="bg-red-50 border border-red-200 p-6 rounded">
+                    <p class="font-medium text-red-900 mb-3">Starting Questions</p>
+                    <ul class="text-sm font-light space-y-2">
+                        <li>• How should the app respond when a member misses a day?</li>
+                        <li>• What role could community and coaches play mid-program?</li>
+                        <li>• What happens after a member completes a session or program?</li>
+                    </ul>
+                </div>
+
+                <div class="bg-green-50 border border-green-200 p-6 rounded">
+                    <p class="font-medium text-green-900 mb-3">Intended Outcomes</p>
+                    <ul class="text-sm font-light space-y-2">
+                        <li>• Concepts for re-engagement, sharing, and coach touch points</li>
+                        <li>• Hi-fi screens the team could react to and test</li>
+                        <li>• A service-level view of the full activity journey</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sketch Stage -->
+        <section class="mb-16 border-t border-gray-200 pt-12">
+            <h3 class="text-xl font-normal mb-6">From Sketch to Open Question</h3>
+            <p class="text-base font-light leading-relaxed mb-8">
+                I sketched five concept flows by hand first, low fidelity on purpose, so the team could react to the idea and not the polish. Each sketch carries the open question it raised, which is what actually shaped the screens that came after.
+            </p>
+
+            <div class="space-y-10">
+                <div class="grid md:grid-cols-2 gap-6 items-center">
+                    <img src="images/headspace/sketch-1-streak-catchup.jpg" alt="Sketch of the Streak Catch Up flow, showing a missed-day prompt, a bonus session screen, and a completion screen" class="w-full border border-gray-200 rounded">
+                    <div>
+                        <p class="text-base font-medium mb-2">Streak Catch Up</p>
+                        <p class="text-sm font-light leading-relaxed text-gray-700">
+                            When a member misses a day, a bonus session offers a way to regain their streak. Sketching this raised real open questions: how many activities should the bonus session include, how it interacts with the current day's session, and whether a member could still have a session left to finish.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="grid md:grid-cols-2 gap-6 items-center">
+                    <img src="images/headspace/sketch-2-community-forum.jpg" alt="Sketch of the Community Forum and Engagement flow, showing a reflection prompt shared with community or coach" class="w-full border border-gray-200 rounded">
+                    <div>
+                        <p class="text-base font-medium mb-2">Community Forum &amp; Engagement</p>
+                        <p class="text-sm font-light leading-relaxed text-gray-700">
+                            After a reflection prompt, a member can share their answer with the community or their coach. The open question here was about storage and access: where a shared reflection actually lives, and how a member would find it again later.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="grid md:grid-cols-2 gap-6 items-center">
+                    <img src="images/headspace/sketch-3-coach-selection.jpg" alt="Sketch of the Coach Selection flow, from opting into a coach to sending a request" class="w-full border border-gray-200 rounded">
+                    <div>
+                        <p class="text-base font-medium mb-2">Coach Selection</p>
+                        <p class="text-sm font-light leading-relaxed text-gray-700">
+                            A member opts into a coach, browses profiles, and sends a request. Sketching it surfaced the entry point question directly, where in the broader experience this flow should even begin, and clarified that this is a request, not an automatic pairing.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="grid md:grid-cols-2 gap-6 items-center">
+                    <img src="images/headspace/sketch-4-worksheet-bonus.jpg" alt="Sketch of a printable worksheet or journal offered as a bonus after program completion" class="w-full border border-gray-200 rounded">
+                    <div>
+                        <p class="text-base font-medium mb-2">Printable Worksheet or Journal as a Completion Bonus</p>
+                        <p class="text-sm font-light leading-relaxed text-gray-700">
+                            Finishing a session unlocks a choice between a printable worksheet or a journal for written reflection, a tangible reward for members who like to reflect off-screen as well as in the app.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="grid md:grid-cols-2 gap-6 items-center">
+                    <img src="images/headspace/sketch-5-heely-notifications.jpg" alt="Sketch of Heely notifications, an in-app chatbot that walks members through a wind-down exercise" class="w-full border border-gray-200 rounded">
+                    <div>
+                        <p class="text-base font-medium mb-2">Heely Notifications</p>
+                        <p class="text-sm font-light leading-relaxed text-gray-700">
+                            Heely, Headspace's in-app chatbot, checks in and walks a member through a short wind-down exercise. I flagged that the flow needed a visible way to show an activity was saved, and a dedicated activity screen surfacing what the member had already completed.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Hi-Fi Resolution -->
+        <section class="mb-16 border-t border-gray-200 pt-12">
+            <h3 class="text-xl font-normal mb-6">Resolving the Open Questions</h3>
+            <p class="text-base font-light leading-relaxed mb-8">
+                The sketches' open questions about storage and access became the brief for the hi-fi screens. Where would a shared reflection live? Why would sharing with community feel different from sharing with a coach? These three screens are the answer.
+            </p>
+
+            <div class="grid md:grid-cols-3 gap-6">
+                <div>
+                    <img src="images/headspace/hifi-activity-log.png" alt="Hi-fi Activity Log screen listing completed activities including Breathe work" class="w-full border border-gray-200 rounded mb-3">
+                    <p class="text-sm font-medium mb-1">Activity Log</p>
+                    <p class="text-xs font-light text-gray-600">Directly answers the sketch's "show activity is saved" note, giving members a persistent record of completed activities.</p>
+                </div>
+                <div>
+                    <img src="images/headspace/hifi-share-community.png" alt="Hi-fi screen explaining why a member would share a reflection with the community" class="w-full border border-gray-200 rounded mb-3">
+                    <p class="text-sm font-medium mb-1">Share with Community</p>
+                    <p class="text-xs font-light text-gray-600">Explains what the community forum is and what sharing there is for, before asking a member to post.</p>
+                </div>
+                <div>
+                    <img src="images/headspace/hifi-share-coach.png" alt="Hi-fi screen explaining why a member would share a reflection with their coach" class="w-full border border-gray-200 rounded mb-3">
+                    <p class="text-sm font-medium mb-1">Share with Coach</p>
+                    <p class="text-xs font-light text-gray-600">Same reflection, different destination and different reason, framed around ongoing coach support rather than peer visibility.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Service Blueprint -->
+        <section class="mb-16 border-t border-gray-200 pt-12">
+            <h3 class="text-xl font-normal mb-6">Zooming Out: The Service Blueprint</h3>
+            <p class="text-base font-light leading-relaxed mb-8">
+                Individual screens only tell part of the story. I mapped the full member journey, from intro through activity engagement to program completion, to show how these concepts connect, where a member can opt out, and where the experience repeats for the length of a course.
+            </p>
+            <img src="images/headspace/service_blueprint.jpg" alt="Service blueprint titled The Future of Interactive Activities in Guided Programs 2025, showing intro phase, activity engagement phase, and completion phase with member actions and opt-out paths" class="w-full border border-gray-200 rounded">
+            <p class="text-xs font-light text-gray-500 mt-3">Service blueprint spanning the intro, activity engagement, and completion phases of the Guided Programs experience.</p>
+        </section>
+
+        <!-- Reflection -->
+        <section class="mb-16 border-t border-gray-200 pt-12">
+            <h3 class="text-xl font-normal mb-4">Reflection</h3>
+            <p class="text-base font-light leading-relaxed mb-6">
+                This work stayed at the concept stage, handed off as a set of sketches, hi-fi screens, and a service blueprint for the Guided Programs team to evaluate and build on. What it shows is my full process end to end: starting from a rough sketch and an honest open question, resolving that question in a real screen, and then stepping back to check how every piece fits into the larger system a member actually experiences.
+            </p>
+        </section>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="px-6 md:px-12 lg:px-24 py-12 border-t border-gray-200">
+        <div class="max-w-5xl mx-auto">
+            <p class="text-xs font-light opacity-40">© 2026 Marjunique Louis</p>
+        </div>
+    </footer>
+
+</body>
+</html>
