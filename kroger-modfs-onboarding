@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Associate Training & Onboarding for Modernized Fulfillment Suite — Marjunique Louis</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap');
+        body { 
+            font-family: 'Inter', sans-serif; 
+            background-color: #ffffff;
+            color: #000000;
+        }
+        a { transition: opacity 0.2s ease; }
+        a:hover { opacity: 0.5; }
+    </style>
+</head>
+<body class="antialiased">
+    
+    <!-- Header -->
+    <header class="px-6 md:px-12 lg:px-24 py-12 md:py-16">
+        <div class="max-w-5xl mx-auto">
+            <div class="flex justify-between items-start">
+                <div>
+                    <h1 class="text-xl font-medium mb-1">Marjunique Louis</h1>
+                    <p class="text-sm font-light opacity-60">Design Researcher</p>
+                </div>
+                <nav class="flex gap-6 md:gap-8 text-sm">
+                    <a href="index.html">← Back</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="px-6 md:px-12 lg:px-24">
+        <div class="max-w-5xl mx-auto">
+        
+        <!-- Project Header -->
+        <section class="mb-16">
+            <h2 class="text-3xl font-medium mb-4">Associate Training &amp; Onboarding for Modernized Fulfillment Suite</h2>
+            <p class="text-sm font-light text-gray-600 mb-8">The Kroger Co. — 2023</p>
+            
+            <div class="grid md:grid-cols-3 gap-8 mb-12 text-sm">
+                <div>
+                    <p class="font-medium mb-1">Role</p>
+                    <p class="font-light text-gray-700">UI/UX Intern</p>
+                </div>
+                <div>
+                    <p class="font-medium mb-1">Timeline</p>
+                    <p class="font-light text-gray-700">Fall 2023 (Sept - Dec)</p>
+                </div>
+                <div>
+                    <p class="font-medium mb-1">Methods</p>
+                    <p class="font-light text-gray-700">Interviews, Surveys, Ideation, Figma prototyping, A/B testing</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Project Goal -->
+        <section class="mb-16 border-t border-gray-200 pt-12">
+            <h3 class="text-xl font-normal mb-6">The Challenge</h3>
+            
+            <p class="text-base font-light leading-relaxed mb-6">
+                Modernized Fulfillment Suite (ModFS) is the set of in-app tools Kroger associates use to pick, pack, and fulfill customer orders. New features and process updates rolled out often, but associates had no reliable way to learn about them.
+            </p>
+
+            <div class="grid md:grid-cols-2 gap-6">
+                <div class="bg-red-50 border border-red-200 p-6 rounded">
+                    <p class="font-medium text-red-900 mb-3">Current Challenges</p>
+                    <ul class="text-sm font-light space-y-2">
+                        <li>• Associates weren't aware of new ModFS features or process changes</li>
+                        <li>• Update communication methods were rarely referenced after the fact</li>
+                        <li>• No single place to find information about ModFS applications</li>
+                    </ul>
+                </div>
+
+                <div class="bg-green-50 border border-green-200 p-6 rounded">
+                    <p class="font-medium text-green-900 mb-3">Research Question</p>
+                    <ul class="text-sm font-light space-y-2">
+                        <li>• How can we improve the ModFS onboarding and training process for associates?</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Research Findings -->
+        <section class="mb-16 border-t border-gray-200 pt-12">
+            <h3 class="text-xl font-normal mb-6">What We Learned</h3>
+
+            <div class="grid md:grid-cols-2 gap-6 mb-8">
+                <div class="bg-blue-50 border border-blue-200 p-6 rounded">
+                    <p class="text-2xl font-light mb-1">2 hrs</p>
+                    <p class="text-sm font-medium mb-2">Max Time Spent Learning Updates</p>
+                    <p class="text-xs font-light opacity-60">Associates spend no more than two hours on new feature or process information</p>
+                </div>
+                <div class="bg-blue-50 border border-blue-200 p-6 rounded">
+                    <p class="text-2xl font-light mb-1">Word of mouth</p>
+                    <p class="text-sm font-medium mb-2">Primary Learning Channel</p>
+                    <p class="text-xs font-light opacity-60">Most associates learn through managers, leads, or informal conversation, not documentation</p>
+                </div>
+            </div>
+
+            <p class="text-base font-light leading-relaxed mb-4">
+                Associates strongly preferred receiving updates through managers and leads, and learned best through hands-on practice and repetition. Email was seen as effective but easy to lose track of. Automating parts of the communication process came up repeatedly as a way to close the gap.
+            </p>
+
+            <div class="bg-gray-50 border border-gray-200 p-6 rounded">
+                <p class="text-sm font-medium mb-3">Current Communication Flow</p>
+                <p class="text-sm font-light leading-relaxed">
+                    Harvester team creates an in-app update → shares it with Retail Ops → Retail Ops shares it with managers, supervisors, and leads → those leads relay it to associates at shift start → associates spend about two hours or less learning it during their shift → associates rely on managers or peers for continued assistance → associates implement the learnings.
+                </p>
+            </div>
+        </section>
+
+        <!-- Ideation & Sketches -->
+        <section class="mb-16 border-t border-gray-200 pt-12">
+            <h3 class="text-xl font-normal mb-6">Ideation</h3>
+            <p class="text-base font-light leading-relaxed mb-6">
+                I ran the team through Crazy 8s, a creative matrix, and storyboarding to generate a wide range of concepts before narrowing in, from proactive nudges when an associate is stuck, to a personalized training hub, to a chatbot that steps in when someone's spending too long on a task.
+            </p>
+            <img src="images/kroger/sketches.jpg" alt="Sketches showing concepts including a QR code training link on Dash, a personalized ModFS training checklist, a chatbot helping with a rejected item screen, and a barcode scanning hint" class="w-full border border-gray-200 rounded">
+        </section>
+
+        <!-- A/B Testing -->
+        <section class="mb-16 border-t border-gray-200 pt-12">
+            <h3 class="text-xl font-normal mb-6">A/B User Testing Designs</h3>
+            <p class="text-base font-light leading-relaxed mb-6">
+                I built out two full, competing prototypes in Figma and put them in front of associates and stakeholders as structured A/B tests, comparing different approaches to onboarding, in-the-moment guidance, and where training content should live.
+            </p>
+
+            <div class="space-y-8">
+                <div>
+                    <p class="text-sm font-medium mb-2">Design A — In-flow quantity entry and post-run tips</p>
+                    <img src="images/kroger/design-a.jpg" alt="Design A screens showing quantity entry, order fulfillment actions, trolley run completion metrics, and tips and tricks onboarding cards" class="w-full border border-gray-200 rounded">
+                </div>
+                <div>
+                    <p class="text-sm font-medium mb-2">Design B — Dedicated training hub and update walkthroughs</p>
+                    <img src="images/kroger/design-b.jpg" alt="Design B screens showing a ModFS Training hub with feature checklists, resource links, and a two-step walkthrough for a new feature" class="w-full border border-gray-200 rounded">
+                </div>
+            </div>
+        </section>
+
+        <!-- Impact -->
+        <section class="mb-16 border-t border-gray-200 pt-12">
+            <h3 class="text-xl font-normal mb-4">Potential Impact</h3>
+            
+            <p class="text-base font-light leading-relaxed mb-6">
+                I closed out the internship by deploying a supporting survey, synthesizing findings across the user testing and survey data, and handing off recommendations to the team. The designs were framed around impact the team could pursue going forward.
+            </p>
+
+            <div class="bg-gray-50 border border-gray-200 p-6 rounded">
+                <p class="text-sm font-medium mb-3">Framed Outcomes</p>
+                <ul class="text-sm font-light leading-relaxed space-y-2">
+                    <li>• Increase in associate productivity</li>
+                    <li>• Reduction in errors in fulfillment and pick-up orders</li>
+                    <li>• Increase in employee retention in the fulfillment and pickup department</li>
+                    <li>• Increased independence in associate training efforts</li>
+                </ul>
+            </div>
+        </section>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="px-6 md:px-12 lg:px-24 py-12 border-t border-gray-200">
+        <div class="max-w-5xl mx-auto">
+            <p class="text-xs font-light opacity-40">© 2026 Marjunique Louis</p>
+        </div>
+    </footer>
+
+</body>
+</html>
